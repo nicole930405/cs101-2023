@@ -21,7 +21,7 @@ class readClass {
         string line;
         in.open("main.cpp");
         while(getline(in, line)) {
-            if (line.find("x",0)){
+            if (line.find("class",0)){
                 x++;
             }
         }
